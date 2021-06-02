@@ -10,3 +10,6 @@
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/preservim/nerdtree.git
+[submodule "bundle/vim-prisma"]
+	path = bundle/vim-prisma
+	url = https://github.com/pantharshit00/vim-prisma.git
