@@ -13,3 +13,6 @@
 [submodule "bundle/vim-prisma"]
 	path = bundle/vim-prisma
 	url = https://github.com/pantharshit00/vim-prisma.git
+[submodule "bundle/gutentags"]
+	path = bundle/gutentags
+	url = https://github.com/ludovicchabant/vim-gutentags.git
