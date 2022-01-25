@@ -1,3 +1,5 @@
+filetype plugin on
+set omnifunc=syntaxcomplete#Complete
 set exrc
 set secure
 execute pathogen#infect()
