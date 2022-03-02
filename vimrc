@@ -13,7 +13,7 @@ set nu
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
-set noexpandtab
+set expandtab
 set autoindent
 set nowrap
 "plugin conf
@@ -26,11 +26,7 @@ let g:syntastic_always_populate_loc_list = 1
 "remaps
 nnoremap <C-n> :tabnext<CR>
 nnoremap <C-p> :tabprevious<CR>t
-inoremap <C-S-Tab> <Esc>:tabprevious<CR>i
-inoremap <C-Tab> <Esc>:tabnext<CR>i
 
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 
-" CTRL-S to save instead of fucking up the terminal.
-inoremap <silent> <C-S>         <C-O>:update<CR>
