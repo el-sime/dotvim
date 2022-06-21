@@ -27,6 +27,10 @@ let g:syntastic_always_populate_loc_list = 1
 nnoremap <C-n> :tabnext<CR>
 nnoremap <C-p> :tabprevious<CR>t
 
+nnoremap <C-l> :bn<CR>
+nnoremap <C-h> :bp<CR>
+
+
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 
