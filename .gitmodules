@@ -16,3 +16,6 @@
 [submodule "bundle/gutentags"]
 	path = bundle/gutentags
 	url = https://github.com/ludovicchabant/vim-gutentags.git
+[submodule "/home/el_sime/.vim/bundle/omnisharp-vim"]
+	path = /home/el_sime/.vim/bundle/omnisharp-vim
+	url = https://github.com/OmniSharp/omnisharp-vim.git
